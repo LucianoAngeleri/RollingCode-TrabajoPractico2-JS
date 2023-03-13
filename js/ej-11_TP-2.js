@@ -12,8 +12,8 @@ for (let i = 0; i < 3; i++) {
 }
 edadMayor=Math.max(edades[0],edades[1],edades[2])
 
-document.write("<h5 class='display-5 text-center'>Resultado</h5>");
 document.write("<section class='container'>")
+document.write("<h5 class='display-5 text-center'>Resultado</h5>");
 
 switch (edadMayor) {
     case edades[0]:
