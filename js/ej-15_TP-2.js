@@ -43,7 +43,7 @@ if (texto === "" || texto === null) {
   if (totalVocales !== 0) {
     document.write("<section class='container'>");
   document.write(
-    `<p class='display-5 text-center text-success'>La cantidad de letras vocales encontradas en el texto /${texto}/ es:</p>`
+    `<p class='display-5 text-center text-success'>La cantidad de letras vocales encontradas en el texto \"${texto}\" es:</p>`
   );
   document.write("<ul class='list-unstyled'>");
   document.write(`<li class=' list-item fs-3 text-secondary'>Letras A: ${contadorLetraA}</li>`);
